@@ -6,7 +6,7 @@ sudo gpg -a --export CD2EFD2A | sudo apt-key add -
 
 
 sudo echo '
-deb http://repo.percona.com/apt squeeze main
+deb http://repo.percona.com/apt wheezy main
 deb-src http://repo.percona.com/apt squeeze main
 
 ' > /etc/apt/sources.list.d/percona.list
